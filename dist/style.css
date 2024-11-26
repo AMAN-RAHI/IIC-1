@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+#world {
+  background: #1b0c73;
+  position:absolute;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+.about {
+  POSITION: ABSOLUTE;
+  z-index: 999;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  color:#fdde8c;
+  text-transform: uppercase;
+  text-align : center;
+}
+.about img {
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+#instructions{
+  position:absolute;
+  width:100%;
+  top:50%;
+  margin: auto;
+  margin-top:120px;
+  font-family:'Open Sans', sans-serif;
+  color:#fdde8c;
+  font-size:.8em;
+  text-transform: uppercase;
+  text-align : center;
+  line-height : 1.5;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.lightInstructions {
+  color:#f89a78;
+  font-size:.9em;
+}
+#credits{
+  position:absolute;
+  width:100%;
+  margin: auto;
+  bottom:0;
+  margin-bottom:20px;
+  font-family:'Open Sans', sans-serif;
+  color:#f7575f;
+  font-size:0.6em;
+  text-transform: uppercase;
+  text-align : center;
+}
+#credits a {
+  color:#f89a78;
+}
+
+#power {
+  position:absolute;
+  right: 32px;
+  top:32px;
+  margin: auto;
+  font-family:'Open Sans', sans-serif;
+  color:#481f26;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align : center;
+  line-height : 1.5;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
